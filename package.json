@@ -1,0 +1,26 @@
+{
+  "name": "filesaver-jetpack",
+  "version": "0.0.1",
+  "description": "Quickly create filesaver in firefox add-ons",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/darkowlzz/filesaver-jetpack.git"
+  },
+  "scripts": {
+    "pretest": "rsync -av --progress ./ jpmTest/filesaver/ --exclude jpmTest;"
+  },
+  "keywords": [
+    "firefox",
+    "jetpack",
+    "filesaver",
+    "file",
+    "jpm",
+    "add-on"
+  ],
+  "author": "Sunny <indiasuny000@gmail.com> (darkowlzz)",
+  "license": "MPL",
+  "devDependencies": {
+    "jpm": "0.0.25"
+  }
+}
