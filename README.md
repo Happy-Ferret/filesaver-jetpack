@@ -1,6 +1,8 @@
 filesaver-jetpack
 =================
 
+[![NPM](https://nodei.co/npm/filesaver-jetpack.png)](https://nodei.co/npm/filesaver-jetpack/)
+
 Quickly create filesaver in firefox add-ons ([jpm](https://github.com/mozilla/jpm) based).
 
 ## To use
